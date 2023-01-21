@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    width:30%;
+    margin:auto;
+}
+.row{
+    margin-top:4px;
+}
+.btn{
+    height:100%;
+    width: 100%;
+    padding:4px;
+}
+
+
+.btn-custom {
+    margin:10px 0;
+}
+
+#share-a, #copy-a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#share-a2 {
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+
+.final{
+    margin-top: 14px;
+    border-top: 2px solid rgb(211, 211, 211);
+}
+
+.ap{
+    border:2px solid black;
+    padding:6px;
+    border-radius: 5px;
+    min-height: 40px;
+}
+
+.prTitle{
+    color:rgb(79, 173, 79);
+}
+
+.abTitle{
+    color:rgb(255, 60, 60);
+}
+
+#date {
+    font-weight: bold;
+    margin:3px 0;
+}
+
+.buttons-group{
+    margin:10px 0;
+}
+
+.title1{
+    margin:3px 0;
+}
+
+#ab-Count, #pr-Count {
+    color:black;
+}
+
+#subject {
+    width: 100%;
+    margin: 2px 0;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#select-title {
+    margin:5px 0;
+}
+
+@media only screen and (max-width:900px) {
+    body {
+        width:auto;
+        margin:10px;
+    }
+}
